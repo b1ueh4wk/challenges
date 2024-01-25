@@ -1,7 +1,7 @@
 ---
 name: Daily Challenge
 about: Will streamline daily challenge contributions and ensure clarity
-title: "[DAILY CHALLENGE]"
+title: "[DAILY CHALLENGE NAME] - [DATE OF CHALLENGE]"
 labels: help wanted
 assignees: ''
 
@@ -36,11 +36,14 @@ Remember, challenges should be designed to be completed in 30 minutes or less.
 
 ## Additional Notes or Resources (Optional)
 <!--
-If there are any additional notes, hints, or resources (like links to documentation or related topics) that might help participants, include them here.  Or leave this blank.
+If there are any additional notes, hints, or resources (like links to documentation or related topics) that might help participants, include them here.  Or just delete this field or leave it blank.
 -->
 
 ## Submission Guidelines
-<!--
-Outline the process for submitting a solution to the challenge. 
-This might include steps for creating a pull request, specific branch naming conventions, or any other repository-specific procedures.
--->
+1. Assign yourself to this issue
+2. Create a branch for yourself in this issue
+3. Write your code locally
+4. Push up your code to your branch on GitHub
+5. Create a Pull Request to merge your code into main
+6. Get reviewed by the "challenger"
+7. Get merged or update your code as requested, and repeat 4, 5, 6.
