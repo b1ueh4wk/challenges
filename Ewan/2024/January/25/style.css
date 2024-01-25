@@ -1,0 +1,18 @@
+button {
+  all: unset;
+  color: white;
+  background-color: #307fe2;
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  height: 50px;
+  text-align: center;
+  padding-left: 1.95em;
+  padding-right: 1.95em;
+  clip-path: polygon(7.5% 0, 100% 0%, 92.5% 100%, 0% 100%);
+}
+
+button:hover {
+  cursor: pointer;
+  filter: brightness(1.15);
+}
