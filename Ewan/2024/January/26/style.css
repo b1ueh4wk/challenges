@@ -1,0 +1,24 @@
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 18rem;
+}
+
+img {
+  height: 18rem;
+  width: 18rem;
+  border: 3px solid blueviolet;
+  border-radius: 50%;
+}
+
+.header {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.description {
+  font-size: 1.2rem;
+  text-align: center;
+}
