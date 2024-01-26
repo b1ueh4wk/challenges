@@ -1,0 +1,24 @@
+.image-section {
+    height: 500px;
+    width: 400px ;
+    /* border: 5px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top:50px;
+    background-color: rgb(1, 124, 158);
+    border-radius: 2%;
+}
+
+.image-section > img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.image-section > h3 {
+    text-align: center;
+}
