@@ -1,0 +1,20 @@
+.primary-btn{
+    background-color: #2f7ee2;
+    color: #fff;
+    clip-path: polygon(8% 0, 100% 0, 92% 100%, 0 100%);
+    text-transform: uppercase;
+    padding: 7px 30px;
+    border: none;
+    border-color: transparent;
+    outline: none;
+    font: inherit;
+    height: 2.5em;
+    font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: normal;
+    line-height: 1.6;
+    text-rendering: optimizeLegibility;
+}
+.primary-btn:hover{
+    background-color: #3792ff;
+    cursor: pointer;
+}
