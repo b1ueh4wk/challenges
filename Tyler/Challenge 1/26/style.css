@@ -16,6 +16,11 @@ body{
   font-size: 27px;
 }
 
+.trailer-button:hover{
+  cursor: pointer;
+  background-color: #448de7;
+}
+
 /* NOTE: the transform skew also skews the text, even when transform is set to 'none', not sure how to fix this.  */
 
 p{
