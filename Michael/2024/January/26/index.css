@@ -1,0 +1,29 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    width: 350px;
+    text-align: center;
+    background-color: #211f3e;
+    color: #78b9fb;
+    font-family: "Roboto Slab", serif;
+    line-height: 20px;
+}
+.card-title{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.card-body{
+    font-size: 16px;
+    margin: 0px 20px 0px 20px;
+}
+
+.img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 2px blue solid;
+}
