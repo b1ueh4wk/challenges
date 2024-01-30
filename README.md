@@ -2,8 +2,8 @@
 
 Start out our day with a quick success and learning opportunity. Here is the schedule of who will curate the challenge for the day:
 
-- Monday - Franco
-- Tuesday - Reed
+- Monday - Reed
+- Tuesday - Franco
 - Wednesday - Ewan
 - Thursday - Tyler
 - Friday - Michael
