@@ -1,0 +1,33 @@
+
+
+body{
+  background-color: rgb(86, 84, 84);
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  height: 50vh;
+  align-items: center;
+}
+
+.search-bar{
+  background-color: rgb(251, 251, 251);
+  border-radius: 60px;
+}
+
+.search-icon{
+  font-size: 30px;
+  margin-top: 1em;
+  margin-left: 1em;
+}
+
+.text-input{
+  width: 22em;
+  padding: 1.5em;
+  border: none;
+  border-radius: 50px;
+  background-color: rgb(251, 251, 251);
+  margin-bottom: 2em;
+  margin-right: 2em;
+}
