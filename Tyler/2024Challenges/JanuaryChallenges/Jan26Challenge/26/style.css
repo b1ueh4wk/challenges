@@ -1,0 +1,32 @@
+
+
+body{
+  background-color: rgb(59, 59, 59);
+}
+
+.trailer-button{
+  margin-left: 10em;
+  margin-top: 10em;
+  height: 70px;
+  aspect-ratio: 3.5/1;
+  transform: skewX(-15deg);
+  border-radius: 0px;
+  border: none;
+  background-color: #307fe2;
+  font-size: 27px;
+}
+
+.trailer-button:hover{
+  cursor: pointer;
+  background-color: #448de7;
+}
+
+/* NOTE: the transform skew also skews the text, even when transform is set to 'none', not sure how to fix this.  */
+
+p{
+  color: #fff;
+  font-family: "Bourgeois W00 Medium", sans-serif;
+  transform: none;
+  margin: 0px;
+  font-weight: 500;
+}

@@ -1,0 +1,19 @@
+#stay {
+    width: 100px;
+    height: 100px;
+    font-size: 20px;
+    background: linear-gradient(45deg, rgb(92, 180, 212) 50%, rgb(6, 59, 129));
+    background-position: 100%;
+    background-size: 400%;
+    transition: background 300ms ease-in-out;
+    border-color:  rgba(200, 200, 200, 0.994);
+    border-radius: 50px;
+    border-width: 5px;
+    color: rgb(204, 172, 172);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.953);
+    box-shadow: 3px 3px 30px 3px rgba(43, 196, 243, 0.423);
+}
+
+#stay:hover {
+    background-position: 0;
+  }
