@@ -1,0 +1,28 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: rgb(91, 91, 91);
+}
+
+button {
+  font-size: 50px;
+  color: rgb(244, 244, 244);
+  width: 7em;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  background-color: rgb(44, 162, 170);
+  border: 10px solid rgb(12, 56, 72);
+  transition: all 1s;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(24, 217, 231);
+  color: rgb(20, 3, 3);
+  border: 30px solid #22006b;
+}
