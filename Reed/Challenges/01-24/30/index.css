@@ -1,0 +1,16 @@
+.stay-button {
+    background-color: #45b84d;
+    border: 10px solid #fbee93;
+    border-radius: 50%;
+    color: white;
+    text-shadow: 0px 0px 4px whitesmoke;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .stay-button:hover {
+    filter: brightness(1.15);
+  }

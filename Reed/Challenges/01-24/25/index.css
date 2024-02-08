@@ -1,0 +1,27 @@
+.button-container{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-color: #307fe2;
+    clip-path: polygon(7.5% 0, 100% 0%, 92.5% 100%, 0% 100%);
+    font-size: 1rem;
+    text-decoration: none;
+    width: 400px;
+}
+.button-container:visited { text-decoration: none; color:none; }
+.button-container:hover { text-decoration: none; color:none; }
+.button-container:focus { text-decoration: none; color:none; }
+
+.button-container:hover, a:active { 
+    text-decoration: none; 
+    color:black;
+    cursor: pointer;
+    filter: brightness(1.15); 
+}
+    
+.button-container > h1 {
+    color: white;
+    font-family:  Bourgeois W00 Medium;
+    font-weight: 700;
+}
