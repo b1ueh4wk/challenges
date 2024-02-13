@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div>
+        <button onclick="buttonClick('inc')">Click Me</button>
+        <p type="text" id="inc" >0</p>
+    </div>
+
+    <div>
+        <button onclick="buttonClick('inc2')">Click Me</button>
+        <p type="text" id="inc2" >0</p>
+    </div>
+
+    <script>
+        function buttonClick(info) {
+            let thing = document.getElementById(info)
+            thing.textContent = Number(thing.textContent) + 1;
+        }
+    </script>
+</body>
+</html>
